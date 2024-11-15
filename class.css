@@ -1,0 +1,123 @@
+.nav_g{
+    color: black;
+    font-size: 15px;
+    position: relative;
+    transition: all 0.4s;
+
+}
+.nav_g:hover{
+    color: black;
+}
+.nav_g::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(0, 128, 128);
+    left: 0;
+    bottom: -4px;
+    opacity: 0;
+}
+.nav_g:hover::after{
+    opacity: 1;
+}
+
+#img4{
+    height: 300px;
+    width: 300px;
+    border-radius: 9cm;
+}
+.cen{
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    margin-left: 145px;
+   
+}
+.name{
+    font-size: 30px;
+    font-weight: 700;
+}
+.bg{
+    background-color: hsla(20, 100%, 75%, 0.9);
+}
+.fntin{
+    margin: 5px;
+    font-size: 30px;
+}
+.wrkbg{
+    font-family:' Calibri, 'Trebuchet; 
+    border: 50px;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 300px;
+}
+
+
+.wrk{
+    text-align: center;
+    font-size: 20px;
+}
+.bd22{
+    background-color:bisque;
+}
+
+.fnt{
+    margin: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.fnt202{
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.bord{
+    border: red;
+}
+.wrkbg44{
+    font-family:fantasy; 
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.wrkbgNav{
+    font-family:'Trebuchet MS'; 
+    font-weight: 100;
+    font-size: 30px;
+    position: relative;
+    transition: all 0.4s;
+}
+.wrkbgNav:hover{
+    color:  rgb(0, 128, 128);
+}
+.wrkbgNav::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(0, 128, 128);
+    left: 0;
+    text-shadow: -4px;
+    opacity: 0;
+}
+
+.fnt22{
+    margin-left: 160px;
+    font-size: 20px;
+    margin-top: 50px ;
+    color: white;
+}
+.fntin22{
+    margin: 15px;
+    font-size: 30px;
+    color: white;
+}
+.fntin30{
+    font-size: 13px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
